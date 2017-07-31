@@ -1,0 +1,22 @@
+
+body {
+	background-color: #a9e9ca;
+	text-align: center;
+}
+
+#container {
+	margin: auto;
+	width: 960px;
+	background-color: #cf9;
+
+}
+
+p {
+	padding: 10px;
+	
+}
+
+header, nav, footer {
+	height: 75px;
+	margin: 20px;
+}
