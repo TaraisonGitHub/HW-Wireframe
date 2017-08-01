@@ -4,9 +4,29 @@ body {
 	text-align: center;
 	line-height: 34px;
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-	color: #c9f;
+	color: #a9e9ca;
 	margin: auto;
 	width: 960px;
 	
 }
 
+header, nav, section, aside, footer {
+	display: block;
+	padding: 10px;
+	margin: 10px;
+	background-color: #e96;
+}
+
+section {
+	width: 500px;
+	float: left;
+}
+
+aside {
+	float: left;
+	width: 380px;
+}
+
+footer {
+	clear: both;
+}
