@@ -1,12 +1,13 @@
 
 body {
 	background-color: #a9e9ca;
-	text-align: center;
+
 	line-height: 34px;
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 	color: #a9e9ca;
 	margin: auto;
 	width: 960px;
+	font-size: 18px
 	
 }
 
@@ -15,18 +16,43 @@ header, nav, section, aside, footer {
 	padding: 10px;
 	margin: 10px;
 	background-color: #e96;
+	text-align: center;
 }
 
 section {
+	margin-top: 0px;
 	width: 500px;
 	float: left;
+	height: 267px;
+	overflow: hidden;
 }
 
 aside {
-	float: left;
+	margin-top: 0px;
+	float: right;
 	width: 380px;
+	height: 267px;
+	overflow: hidden;
 }
 
 footer {
+	margin-top: 0px;
+	clear: both;
+}
+
+article {
+	background-color: #a9e9ca;
+	color: #e96;
+	padding: 10px;
+}
+
+h1, p {
+	background-color: #e96;
+	color: #a9e9ca;
+	padding: 10px;
+	margin: 10px;
+}
+
+.clear {
 	clear: both;
 }
