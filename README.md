@@ -1,2 +1,2 @@
 # HW-Wireframe
-basic html wireframe
+basic html wireframes

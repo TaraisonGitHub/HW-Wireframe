@@ -23,7 +23,7 @@ section {
 	width: 550px;
 	height: 270px;
 	float: left;
-/*	overflow: hidden;*/
+	overflow: hidden;
 }
 
 article {
